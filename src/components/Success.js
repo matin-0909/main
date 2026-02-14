@@ -1,5 +1,6 @@
 import React from "react";
 import kisses from "../kisses.gif";
+import Pic from "../Pet Cat Valentine's Day Poster in Black and White in Polaroid Style.jpg";
 
 /**
  * Success component displaying a sweet message upon acceptance.
@@ -10,6 +11,12 @@ const Success = () => (
   <div className="App-success">
     {/* Displaying a cute kisses gif */}
     <img className="App-gif" src={kisses} alt="Kisses" />
+   <img 
+  className="Pic" 
+  src={Pic} 
+  alt="Pic" 
+  style={{ width: "300px", height: "300px" }}
+/>
     {/* Personalized success messages */}
     <p className="App-text-success">
      You're my favorite movie buddy, my princess, and the one I enjoy every moment with.
