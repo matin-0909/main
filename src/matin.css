@@ -1,0 +1,129 @@
+/* Custom Styles */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #343a40;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.member {
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.member:hover, .member.active {
+    background-color: #495057;
+}
+
+.chat-content {
+    flex-grow: 1;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.chat-messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message .avatar {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+}
+
+.message.self {
+    justify-content: flex-end;
+}
+
+.message-data {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    max-width: 70%;
+}
+
+.message.self .message-data {
+    background-color: #d1ecf1;
+}
+
+.send-message {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-message {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.send-button {
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.register button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.register button:hover {
+    background-color: #0056b3;
+}
